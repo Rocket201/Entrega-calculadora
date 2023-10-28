@@ -1,4 +1,7 @@
-
+/*
+*Autor:Alejandro GOnzález Corroto
+*GIT HUB: https://github.com/Rocket201/Entrega-calculadora.git
+*/
 let numero1 = '';
 let numero2 = '';
 let operador = '';
