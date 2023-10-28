@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="/styles.css/style.css">
+
+    
+
+</head>
+<body>      
+    <div class="cuerpoCalculadora">
+
+        <div class="calculadora">
+            <div class="output">
+                <output id="salidaNumero2"></output>
+                <output id="salidaNumero1"></output>
+            </div>
+            <div class="teclado">
+                <div class="columna">
+                    <button onclick="Operador('%')">%</button>
+                    <button onclick="Operador('1/x')">1/x</button>
+                    <button onclick="botonNumero(7)">7</button>
+                    <button onclick="botonNumero(4)">4</button>
+                    <button onclick="botonNumero(1)">1</button>
+                    <button onclick="Operador('+/-')">+/-</button>
+                </div>
+                <div class="columna">
+                    <button onclick="eliminarNumero1()">CE</button>
+                    <button onclick="Operador('x2')">x2</button>
+                    <button onclick="botonNumero(8)">8</button>
+                    <button onclick="botonNumero(5)">5</button>
+                    <button onclick="botonNumero(2)">2</button>
+                    <button onclick="botonNumero(0)">0</button>
+                </div>
+                <div class="columna">
+                    <button onclick="eliminarTodo()">C</button>
+                    <button onclick="Operador('2√x')">2√x</button>
+                    <button onclick="botonNumero(9)">9</button>
+                    <button onclick="botonNumero(6)">6</button>
+                    <button onclick="botonNumero(3)">3</button>
+                    <button onclick="botonNumero('.')">,</button>
+                </div>
+                <div class="columna">
+                    <button onclick="deleteUltimoNumero()">⌫</button>
+                    <button onclick="Operador('/')">/</button>
+                    <button onclick="Operador('*')">X</button>
+                    <button onclick="Operador('-')">-</button>
+                    <button onclick="Operador('+')">+</button>
+                    <button onclick="ejecutar()">=</button>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+   
+
+    <script src="/scripts.js/script.js"></script>
+</body>
+</html>
